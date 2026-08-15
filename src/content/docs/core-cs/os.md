@@ -1,7 +1,7 @@
  # Operating Systems
  
 > [!NOTE]
-> Reference notes: [OS One-Shot Notes](https://drive.google.com/file/d/1qkoW-E2B8Rugn5YF8BXX55tnmQfUe_Jx/view?usp=sharing)
+> Reference notes: [OS One-Shot Notes](../extras/notes/OS-ONE-SHOT.pdf)
  
 ## Threads and Processes
  

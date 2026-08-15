@@ -67,3 +67,4 @@ coverage*.json
 
 #stale
 stale.md
+resource/**

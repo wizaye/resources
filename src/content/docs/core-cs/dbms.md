@@ -1,7 +1,7 @@
 # DBMS
  
 > [!NOTE]
-> Reference notes: [DBMS One-Shot Notes](https://drive.google.com/file/d/1y3KKghRhQjKfbWhvLipMOCCemKd_XdTm/view?usp=sharing)
+> Reference notes: [DBMS One-Shot Notes](../extras/notes/DBMS-ONE-SHOT.pdf)
  
 Most PBCs won't ask you to write SQL queries live. But database-heavy companies will go deep here, expect SQL-heavy rounds at places like Oracle, and NoSQL/distributed-systems-heavy rounds at places like Databricks or Snowflake.
  
