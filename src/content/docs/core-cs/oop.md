@@ -12,20 +12,19 @@ Learn UML first, especially ER diagrams, since you'll need to read and draw them
 
 You can quickly read these to get started :
 - [Introduction to the ER Model](https://www.geeksforgeeks.org/dbms/introduction-of-er-model)
-
 - [Introduction to UML](https://www.geeksforgeeks.org/system-design/unified-modeling-language-uml-introduction)
 
 > [!IMPORTANT]
-> Prefer Java or C# over Python for this. Both enforce OOP structure by design (explicit interfaces, access modifiers, strict typing), which makes the concepts concrete instead of optional. Python lets you skip half of this and still get away with it, which is exactly what you don't want while learning it.
+> Prefer ==**Java or C#**== over **Python** for this. Both enforce OOP structure by design (explicit interfaces, access modifiers, strict typing), which makes the concepts concrete instead of optional. Python lets you skip half of this and still get away with it, which is exactly what you don't want while learning it.
  
 ## The Four Pillars
  
-| Pillar | What it actually means |
-|---|---|
-| Abstraction | Expose what an object does, hide how it does it |
-| Encapsulation | Bundle data and behavior together, control access to internal state |
-| Inheritance | A class reuses and extends another class's behavior |
-| Polymorphism | The same interface behaves differently depending on the actual object type |
+| Pillar        | What it actually means                                                     |
+| ------------- | -------------------------------------------------------------------------- |
+| Abstraction   | Expose what an object does, hide how it does it                            |
+| Encapsulation | Bundle data and behavior together, control access to internal state        |
+| Inheritance   | A class reuses and extends another class's behavior                        |
+| Polymorphism  | The same interface behaves differently depending on the actual object type |
  
 ```java
 // Abstraction + Polymorphism
