@@ -25,6 +25,12 @@ yarn-error.log*
 dist/
 build/
 public/
+!apps/docs-site/public/
+apps/docs-site/public/*
+!apps/docs-site/public/images/
+apps/docs-site/public/images/*
+!apps/docs-site/public/images/status/
+!apps/docs-site/public/images/status/**
 out/
 _site/
 .vitepress/dist
@@ -42,6 +48,7 @@ venv/
 .venv/
 .env
 .env.*
+!apps/docs-site/.env.example
 .pytest_cache/
 .mypy_cache/
 
