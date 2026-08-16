@@ -8,7 +8,7 @@ export function baseOptions(): BaseLayoutProps {
       title: (
         <span className="flex items-center gap-2">
           <Image
-            src="/images/logo.png"
+            src="/images/logo.webp"
             alt=""
             width={72}
             height={48}

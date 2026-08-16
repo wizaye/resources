@@ -9,6 +9,10 @@ const config = {
   turbopack: {
     root: fileURLToPath(new URL('../..', import.meta.url)),
   },
+  images: {
+    // Disabled because Vercel Deployment Protection intercepts /_next/image requests
+    unoptimized: true,
+  },
 };
 
 export default withMDX(config);
