@@ -29,6 +29,8 @@ public/
 apps/docs-site/public/*
 !apps/docs-site/public/images/
 apps/docs-site/public/images/*
+!apps/docs-site/public/images/logo.png
+!apps/docs-site/public/images/logo.webp
 !apps/docs-site/public/images/status/
 !apps/docs-site/public/images/status/**
 out/
