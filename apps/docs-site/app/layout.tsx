@@ -1,14 +1,9 @@
 import { RootProvider } from 'fumadocs-ui/provider/next';
 import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from 'next';
-import { appDescription, appName } from '@/lib/shared';
+import { appDescription, appName, siteUrl } from '@/lib/shared';
 import './global.css';
 import { Banner } from '@/components/banner';
-
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL
-  ?? (process.env.VERCEL_PROJECT_PRODUCTION_URL
-    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
-    : 'http://localhost:3000');
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -19,8 +14,8 @@ export const metadata: Metadata = {
   },
   description: appDescription,
   icons: {
-    icon: '/icon.png',
-    apple: '/icon.png',
+    icon: '/images/logo.png',
+    apple: '/images/logo.png',
   },
   openGraph: {
     type: 'website',
@@ -37,16 +32,7 @@ export default function Layout({ children }: LayoutProps<'/'>) {
 
         <RootProvider>
           <Banner
-            variant="rainbow"
-            rainbowColors={[
-              'rgba(255,100,0, 0.5)',
-              'rgba(255,100,0, 0.5)',
-              'transparent',
-              'rgba(255,100,0, 0.5)',
-              'transparent',
-              'rgba(255,100,0, 0.5)',
-              'transparent',
-            ]}
+            variant="normal"
           > The Site Is Still In Beta, Please Expect Issues and Also Missing Content </Banner>
           {children}
 

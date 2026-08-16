@@ -14,7 +14,7 @@ export default function NotFound() {
             404
           </p>
           <Image
-            src="/images/status/404.png"
+            src="/images/status/cse/404.png"
             alt="Worried developer looking for a missing resource"
             width={1024}
             height={1024}

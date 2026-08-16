@@ -17,7 +17,7 @@ function SponsorBanner({ className }: { className?: string }) {
         <span className="mt-0.5 text-xs font-semibold leading-tight">Keep learning accessible</span>
       </div>
       <Image
-        src="/images/status/200.png"
+        src="/images/status/success/200.png"
         alt=""
         fill
         sizes="(min-width: 1280px) 240px, 100vw"

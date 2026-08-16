@@ -8,11 +8,11 @@ export function baseOptions(): BaseLayoutProps {
       title: (
         <span className="flex items-center gap-2">
           <Image
-            src="/images/retro-developer-404-complete.png"
+            src="/images/logo.png"
             alt=""
-            width={48}
+            width={72}
             height={48}
-            className="size-12 object-cover object-center"
+            className="h-12 w-[72px] shrink-0 object-contain"
           />
           <span>{appName}</span>
         </span>
