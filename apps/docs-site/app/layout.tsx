@@ -1,5 +1,6 @@
 import { RootProvider } from 'fumadocs-ui/provider/next';
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { appDescription, appName, siteUrl } from '@/lib/shared';
 import './global.css';
@@ -38,6 +39,7 @@ export default function Layout({ children }: LayoutProps<'/'>) {
 
         </RootProvider>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
